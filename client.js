@@ -20,9 +20,7 @@ const connect = function() {
   return conn;
 };
 
-module.exports = {
-  connect,
-};
+module.exports = connect;
 
 //Move Commands
 // "Move: up" - move up one square (unless facing down)
