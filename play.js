@@ -7,11 +7,9 @@
 
 //IP: 165.227.47.243 | PORT: 50541
 
-//const net = require("net");
 
 const connect = require("./client");
 
 const setupInput = require("./input");
 
-connect();
-setupInput();
+setupInput(connect());
